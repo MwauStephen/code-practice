@@ -1,0 +1,90 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{
+     font-family:'montserrat'sans-serif;
+     list-style: none;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+body{
+    background: #333;
+}
+.skills{
+    width:500px;
+    margin:60px auto;
+    color: white;
+}
+.skills h1{
+
+}
+.skills li{
+    margin:20px 0;
+}
+
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 10px;
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden; 
+    font-size: 15px;
+    box-shadow:0 0 10px #2187e7b3 ;
+
+}
+.bar span{
+    height: 10px;
+    font-size:16px;
+    float: left;
+    background: #2187e7;
+
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+  
+}
+.css3{
+    width:65%;
+    animation: css3 2s;
+}
+.java{
+    width: 50%;
+    animation: java 2s;
+}
+.sass{
+    width:70%;
+    animation: sass 2s;
+}
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes css3{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:65%;
+    }
+}
+@keyframes java{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:50%;
+    }
+}
+@keyframes sass{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+    }
